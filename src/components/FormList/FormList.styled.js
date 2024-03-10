@@ -23,7 +23,7 @@ export const Input = styled.input`
   border-radius: 4px;
   box-shadow:${(p) => p.theme.boxShadow.textShadow};
   &:focus {
-    box-shadow:${(p) => p.theme.boxShadow.boxShadow};
+    border: 2px solid orange;
   }
 `;
 
@@ -34,10 +34,8 @@ export const Button = styled.button`
   color: ${(p) => p.theme.colors.white};
   padding: 10px;
   background: orange;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   border: none;
   border-radius: 4px;
-  box-shadow: ${(p) => p.theme.boxShadow.boxShadow};
   :focus,
   :hover {
     background: ${(p) => p.theme.colors.orangered}; 

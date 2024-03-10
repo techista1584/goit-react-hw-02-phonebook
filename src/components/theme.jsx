@@ -3,7 +3,7 @@ export const theme = {
     black: '#000000',
     white: '#ffff',
     grey:'#fff',
-    orange: '#fa83ef',
+    orange: '#f28500',
     orangered: 'rgb(255, 128, 0)',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
