@@ -22,10 +22,15 @@ export const Input = styled.input`
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 4px;
   box-shadow:${(p) => p.theme.boxShadow.textShadow};
+  transition: border 0.3s ease-in-out; /* Add this line */
   &:focus {
-    border: 2px solid orange;
+    border: 1.5px solid orange;
+  }
+  &:hover {
+    border: 1.5px solid orange;
   }
 `;
+
 
 export const Button = styled.button`
   display: flex;
